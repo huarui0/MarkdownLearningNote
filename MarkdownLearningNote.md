@@ -13,6 +13,11 @@
    * [Basic Syntax](https://www.markdownguide.org/basic-syntax/) - The Markdown elements outlined in John Gruber's design document.<br>
 
 ## Markdown 语法介绍：
+   * 锚点 与 链接
+      + 内部链接
+         - <span id="beginpoint">这是用Html的标签设置的锚点</span>  
+         - [点击跳转到id为jump的锚点](#jump)
+
 备注：起的文件名扩展名必须是md，就可以用到md的语法组织文档：） <br>  
 - 官网参考：  
     ⋅⋅1. [MarkDown - 语法说明](http://www.markdown.cn/)  
@@ -53,16 +58,12 @@
        + 链接内部的URL
        + 文档内的链接和跳转（两种方式实现页内跳转）
           - 1.MarkDown实现
-             - a. [使用Markdown语法增加的跳转到“文档开头”的链接](#CPractice) 注：因为标题就是锚点id，这里直接用标题名称了。
+             - a. [使用Markdown语法增加的跳转到“文档开头”的链接](#基础知识) 注：因为标题就是锚点id，这里直接用标题名称了。
           - 2.html标签实现
              - a. 定义一个锚(id)：<span id="jump">跳转到的地方（id设置为jump）</span>
              - b. 使用markdown语法：[点击跳转到:用Html的标签设置的锚点](#beginpoint)  
 
 ## 基本的使用
-   * 锚点 与 链接
-      + 内部链接
-         - <span id="beginpoint">这是用Html的标签设置的锚点</span>  
-         - [点击跳转到id为jump的锚点](#jump)
 * 备注：这个是用html标签做表格的例子。<br>
     <table>
         <tr>
