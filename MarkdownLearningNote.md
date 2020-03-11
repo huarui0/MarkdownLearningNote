@@ -4,7 +4,7 @@
 </head>
 
 # 基础知识
-## [下面Github 标题2 Test](#github-标题2-test)<br>
+## [Github 标题2 Test](#github-标题2-test)<br>
 ## 参考 - 有用得链接(GitHub)<br>
    * [Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)<br>
    * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)<br>
