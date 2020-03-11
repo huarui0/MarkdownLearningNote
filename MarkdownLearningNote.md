@@ -4,7 +4,7 @@
 </head>
 
 # 基础知识
-## [跳转到：锚点与链接 知识点](#-锚点-与-链接)<br>
+## [跳转到：锚点与链接 知识点](#锚点-与-链接)<br>
 ## 参考 - 有用得链接(GitHub)<br>
    * [Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)<br>
    * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)<br>
