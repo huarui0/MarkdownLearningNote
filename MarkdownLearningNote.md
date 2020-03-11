@@ -4,7 +4,7 @@
 </head>
 
 # 基础知识
-## [跳转到：锚点与链接 知识点](#锚点-与-链接)<br>
+## [Github 标题2 Test](#github-标题2-test)<br>
 ## 参考 - 有用得链接(GitHub)<br>
    * [Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)<br>
    * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)<br>
@@ -14,7 +14,7 @@
    * [Basic Syntax](https://www.markdownguide.org/basic-syntax/) - The Markdown elements outlined in John Gruber's design document.<br>
 
 ## Markdown 语法介绍：
-   * 锚点 与 链接
+   * Github 标题2 Test
       + 内部链接
          - <span id="beginpoint">这是用Html的标签设置的锚点</span>  
          - [点击跳转到id为jump的锚点](#jump)
