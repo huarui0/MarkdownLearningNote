@@ -30,6 +30,8 @@
          ⋅⋅1. [Markdown 语法介绍](https://coding.net/help/doc/project/markdown.html)  
          ⋅⋅2. [Markdown基本语法](https://www.jianshu.com/p/191d1e21f7ed)  
          ⋅⋅3. [掌握这几种 Markdown 语法你就够了](https://learnku.com/laravel/t/621/you-will-be-able-to-master-these-markdown-grammars)
+   * Github 标题2 Test
+      - Test
    * 知识点
       - 标题
       - 列表
@@ -62,7 +64,7 @@
             - 2.html标签实现
                - a. 定义一个锚(id)：<span id="jump">跳转到的地方（id设置为jump）</span>
                - b. 使用markdown语法：[点击跳转到:用Html的标签设置的锚点](#beginpoint)  
-   * Github 标题2 Test
+
 ## 基本的使用
 * 备注：这个是用html标签做表格的例子。<br>
     <table>
