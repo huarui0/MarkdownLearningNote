@@ -11,6 +11,7 @@
    * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)<br>
    * [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) - 很好的图标，值得用用<br>
    * [Note/GithubEmoji/emoji.md](https://github.com/jingyuexing/Note/blob/master/GithubEmoji/emoji.md) :heavy_check_mark:另一个很好的图标，值得参考<br>
+   * [符號表（圓圈文、表情 EMOJI、箭頭、特殊符號等）](https://blog.alyssachan.space/2016/10/symbol.html) - 整理各類符號：數字、數學、字母、圖案、表情、箭頭、特殊符號等。<br>
    * [Basic Syntax](https://www.markdownguide.org/basic-syntax/) - The Markdown elements outlined in John Gruber's design document.<br>
 
 ## Markdown 语法介绍：
