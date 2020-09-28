@@ -19,6 +19,9 @@
       + 内部链接
          - <span id="beginpoint">这是用Html的标签设置的锚点</span>  
          - [点击跳转到id为jump的锚点](#jump)
+      + 外部链接
+         - Android 上的应用 可以参考：[AndroidLearningNode.md - Android 与 SQLite](https://github.com/huarui0/AndroidLearningNode/blob/master/AndroidLearningNode.md#header-Android_SQLite)<br>
+         - 方法 `## Android 上的应用 可以参考：[AndroidLearningNode.md - Android 与 SQLite](https://github.com/huarui0/AndroidLearningNode/blob/master/AndroidLearningNode.md#header-Android_SQLite)<br>`
    * 备注：起的文件名扩展名必须是md，就可以用到md的语法组织文档：） <br>  
       - 官网参考：  
          ⋅⋅1. [MarkDown - 语法说明](http://www.markdown.cn/)  
