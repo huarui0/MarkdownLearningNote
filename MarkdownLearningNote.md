@@ -3,9 +3,10 @@
 <link rel="stylesheet" type="text/css" href="colors.css">
 </head>
 
-# 基础知识
+# 基础知识 {: id='ID_OF_ANCHOR_BasicKnoledge' }
 ## [锚点 与 链接](#锚点-与-链接)<br>
 ## 参考 - 有用得链接(GitHub)<br>
+   * [Making headings into link targets)(https://developers.google.com/style/headings-targets#markdown)<br>
    * [Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)<br>
    * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)<br>
    * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)<br>
@@ -19,6 +20,7 @@
       + 内部链接
          - <span id="beginpoint">这是用Html的标签设置的锚点</span>  
          - [点击跳转到id为jump的锚点](#jump)
+         - 新的方法 - [跳转到链接位置](#ID_OF_ANCHOR_BasicKnoledge)<br>
       + 外部链接
          - Android 上的应用 可以参考：[AndroidLearningNode.md - Android 与 SQLite](https://github.com/huarui0/AndroidLearningNode/blob/master/AndroidLearningNode.md#header-Android_SQLite)<br>
          - 方法 `## Android 上的应用 可以参考：[AndroidLearningNode.md - Android 与 SQLite](https://github.com/huarui0/AndroidLearningNode/blob/master/AndroidLearningNode.md#header-Android_SQLite)<br>`
