@@ -18,9 +18,13 @@
 ## Markdown 语法介绍：
    * 锚点 与 链接
       + 内部链接
-         - <span id="beginpoint">这是用Html的标签设置的锚点</span>  
-         - [点击跳转到id为jump的锚点](#jump)
-         - 新的方法 - [跳转到链接位置](#ID_OF_ANCHOR_BasicKnoledge)<br>
+         - 用Html的标签设置的锚点         
+            * <span id="beginpoint">这是用Html的标签设置的锚点</span>  
+         - 用MarkDown语法设置锚点的方法
+            * -
+            * 例子
+               + [点击跳转到id为jump的锚点](#jump)
+               + 新的方法 - [跳转到链接位置](#ID_OF_ANCHOR_BasicKnoledge)<br>
       + 外部链接
          - Android 上的应用 可以参考：[AndroidLearningNode.md - Android 与 SQLite](https://github.com/huarui0/AndroidLearningNode/blob/master/AndroidLearningNode.md#header-Android_SQLite)<br>
          - 方法 `## Android 上的应用 可以参考：[AndroidLearningNode.md - Android 与 SQLite](https://github.com/huarui0/AndroidLearningNode/blob/master/AndroidLearningNode.md#header-Android_SQLite)<br>`
