@@ -19,7 +19,7 @@
    * 锚点 与 链接
       + 内部链接
          - 用Html的标签设置的锚点         
-            * <span id="beginpoint">这是用Html的标签设置的锚点</span>  
+            * <span id="beginpoint">这是用Html的标签设置的锚点</span>[返回到前一个Html设置的锚点](#endpoint)<br>  
          - 用MarkDown语法设置锚点的方法
             * -
             * 例子
@@ -72,8 +72,8 @@
             - 1.MarkDown实现
                - a. [使用Markdown语法增加的跳转到“文档开头”的链接](#基础知识) 注：因为标题就是锚点id，这里直接用标题名称了。
             - 2.html标签实现
-               - a. 定义一个锚(id)：<span id="jump">跳转到的地方（id设置为jump）</span>
-               - b. 使用markdown语法：[点击跳转到:用Html的标签设置的锚点](#beginpoint)  
+               - a. 定义一个锚(id)：`<span id="jump">跳转到的地方（id设置为jump）</span>`
+               - b. <span id="endpoint"></span>使用markdown语法：[点击跳转到:用Html的标签设置的锚点](#beginpoint)  
 
 ## 基本的使用
 * 备注：这个是用html标签做表格的例子。<br>
