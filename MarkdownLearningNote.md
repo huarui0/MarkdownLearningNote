@@ -22,7 +22,7 @@
             * 步骤
                1. 设置锚点
                   + `<a name="C4">Chapter 4</a></h2>`
-                  + `<a name="BCMConstantsReference">官方参考</a>` -- 这个例子参见：[RaspberryPieRaspberryPie安装与设置 - Constants for passing to and from library functions](https://github.com/huarui0/RaspberryPiePractice/edit/master/RaspberryPieRaspberryPie安装与设置.md#BCMConstantsReference)<br>
+                  + `<a name="BCMConstantsReference">官方参考</a>` -- 这个例子参见：[RaspberryPieRaspberryPie安装与设置 - Constants for passing to and from library functions](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPie安装与设置.md#BCMConstantsReference)<br>
                2. 跳转到指定的锚点
                   + ```html
                         <p>
