@@ -30,8 +30,31 @@
                         </p>
                      ```
                   + `<a href="#BCMConstantsReference">Constants for passing to and from library functions</a>`
-         - 用Html的标签设置的锚点         
-            * <span id="beginpoint">这是用Html的标签设置的锚点</span>[返回到前一个Html设置的锚点](#endpoint)<br>  
+         - 用Html的`<span>`标签的id属性设置锚点，实现链接到文档的另一个位置         
+            * 步骤
+               1. 设置锚点
+                  - `<span id="beginpoint">这是用Html的标签设置的锚点</span>`
+                     * <span id="beginpoint">这是用Html的标签设置的锚点</span>[返回到前一个Html设置的锚点](#endpoint)<br>
+               2. 跳转到指定的锚点 - 用Markdown的链接语法即可实现：
+                  - `[点击跳转到:用Html的标签设置的锚点](#beginpoint)`
+                     * [点击跳转到:用Html的标签设置的锚点](#beginpoint)<br>
+         - 用`<Session>`标签实现
+            * 步骤
+               1. 设置锚点
+                  - ```
+                      <section id="introduction_to_some_things">
+                          <h2>Introduction to everything</h2>
+                          ...
+                      </section>
+                    ```
+                     * <section id="introduction_to_some_things">
+                          <h2>Introduction to everything</h2>
+                       </section>
+               2. 跳转到指定的锚点 - 用Markdown的链接语法即可实现：
+                  - `[点击跳转到:用Html的标签设置的锚点](#introduction_to_some_things)`
+                     * [点击跳转到:用Html的标签设置的锚点](#introduction_to_some_things)<br>             
+               
+               
          - 用MarkDown语法设置锚点的方法
             * -
             * 例子
@@ -85,7 +108,7 @@
                - a. [使用Markdown语法增加的跳转到“文档开头”的链接](#基础知识) 注：因为标题就是锚点id，这里直接用标题名称了。
             - 2.html标签实现
                - a. 定义一个锚(id)：`<span id="jump">跳转到的地方（id设置为jump）</span>`
-               - b. <span id="endpoint"></span>使用markdown语法：[点击跳转到:用Html的标签设置的锚点](#beginpoint)  
+               - b. <span id="endpoint"></span>使用markdown语法链接就可以实现跳转到指定的锚点了：[点击跳转到:用Html的标签设置的锚点](#beginpoint)  
 
 ## 基本的使用
 * 备注：这个是用html标签做表格的例子。<br>
