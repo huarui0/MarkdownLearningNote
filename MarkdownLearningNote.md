@@ -18,6 +18,18 @@
 ## Markdown 语法介绍：
    * 锚点 与 链接
       + 内部链接
+         - 用html5的`<a>`标签 链接到同一个页面的不同位置 -- 本例演示如何使用链接跳转至文档的另一个部分
+            * 步骤
+               1. 设置锚点
+                  + `<a name="C4">Chapter 4</a></h2>`
+                  + `<a name="BCMConstantsReference">官方参考</a>` -- 这个例子参见：[](https://github.com/huarui0/RaspberryPiePractice/edit/master/RaspberryPie%E5%AE%89%E8%A3%85%E4%B8%8E%E8%AE%BE%E7%BD%AE.md#BCMConstantsReference
+               2. 跳转到指定的锚点
+                  + ```html
+                        <p>
+                            <a href="#C4">查看 Chapter 4。</a>
+                        </p>
+                     ```
+                  + `<a href="#BCMConstantsReference">Constants for passing to and from library functions</a>`
          - 用Html的标签设置的锚点         
             * <span id="beginpoint">这是用Html的标签设置的锚点</span>[返回到前一个Html设置的锚点](#endpoint)<br>  
          - 用MarkDown语法设置锚点的方法
